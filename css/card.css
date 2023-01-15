@@ -1,0 +1,40 @@
+.icono {
+  text-align: justify;
+  padding: 0 1rem;
+}
+
+.icono h3 {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .icono {
+    padding: 0;
+  }
+
+  .icono-titulo {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .icono-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icono-descripcion {
+    flex-grow: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .icono {
+    text-align: justify;
+  }
+
+  .icono-titulo {
+    height: auto;
+  }
+}
